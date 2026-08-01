@@ -196,7 +196,7 @@ This project helped me think more clearly about system design, data flow, and re
 
 <div align="center">
 
-<img src="https://github-readme-stats-delta-henna-38.vercel.app/api?username=Ko4rut&show_icons=true&theme=dark" height="170"/>
+<img src="https://github-readme-stats-delta-henna-38.vercel.app/api?username=Ko4rut&show_icons=true&theme=dark&include_all_commits=true" height="170"/>
 <img src="https://github-readme-stats-delta-henna-38.vercel.app/api/top-langs/?username=Ko4rut&layout=compact&theme=dark" height="170"/>
 
 </div>
