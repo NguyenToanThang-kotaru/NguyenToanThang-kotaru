@@ -1,273 +1,105 @@
-<!-- ===================== HEADER ===================== -->
-# Nguyen Toan Thang (Ko4rut)
+<div align="center">
 
-**`Software Developer · Backend Developer · AI Engineering Enthusiast · Computer Vision & RAG Learner`**
+# Hi, I'm Nguyen Toan Thang 👋
 
----
+### AI Engineer · Backend Developer · Applied AI Builder
 
-## About Me
+I build production-oriented AI systems—from data and retrieval pipelines to backend APIs and evaluation.
 
-I am an Information Technology student majoring in **Computer Science** at **Saigon University**, with a strong interest in building practical software systems and applying Artificial Intelligence to real-world problems.
+[![Email](https://img.shields.io/badge/Email-NguyenToanThang15122005%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:NguyenToanThang15122005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nguyen%20Toan%20Thang-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nguyen-toan-thang-672972379/)
+[![GitHub](https://img.shields.io/badge/GitHub-Ko4rut-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ko4rut)
 
-I have hands-on experience in:
+</div>
 
-- Backend API development
-- Retrieval-Augmented Generation systems
-- Computer Vision and deep learning
-- Data analysis and forecasting
-- Software project design and implementation
+## About me
 
-My current direction is to grow from academic and prototype-level projects into **production-oriented software systems**, with stronger focus on clean architecture, scalability, maintainability, and AI integration.
+I'm a Computer Science student at Saigon University, focused on building reliable software around AI models. My work spans retrieval-augmented generation, computer vision, data pipelines, and backend engineering.
 
-I am especially interested in becoming an **AI Engineer** who can build intelligent systems from both sides:
+I enjoy the engineering layer that turns an AI prototype into a usable system: clean architecture, retrieval quality, evaluation, observability, APIs, databases, and deployment.
 
-- The **AI/model side**: training, fine-tuning, evaluation, and optimization
-- The **software/backend side**: APIs, retrieval pipelines, databases, deployment, and system design
+- 🔭 Currently building a Vietnamese AI tax assistant with taxonomy-aware retrieval and multi-turn clarification
+- 🧠 Exploring RAG evaluation, LLM orchestration, information extraction, and computer vision
+- ⚙️ Building with Python, FastAPI, PostgreSQL, pgvector, PyTorch, and Docker
+- 🎯 Working toward an AI Engineer / AI-focused Software Engineer role
 
-Long-term objective:  
-To become an **AI Engineer specializing in intelligent systems, backend AI infrastructure, and real-world AI applications.**
+## What I work with
 
----
+| Area | Technologies |
+| --- | --- |
+| **AI & Machine Learning** | PyTorch, Scikit-learn, Transformers, Computer Vision, NLP, model training and evaluation |
+| **LLM & Retrieval Systems** | RAG, FAISS, pgvector, BM25, hybrid retrieval, embeddings, prompt design, LLM evaluation |
+| **Backend Engineering** | Python, FastAPI, REST APIs, authentication, PostgreSQL, MySQL, SQLite |
+| **Data Engineering** | Pandas, data cleaning, feature engineering, document processing, ETL pipelines |
+| **Infrastructure & Tools** | Docker, Git, GitHub, Linux, AWS fundamentals, Ollama |
 
-## Core Technical Stack
+## Selected work
 
-### Programming Languages
+### 🇻🇳 Vietnamese AI Tax Assistant
 
-- Python
-- C / C++
-- SQL
-- Java
-- C#
+An end-to-end, domain-focused RAG system designed to answer Vietnamese tax questions using structured taxonomy, conversational context, and evidence-backed retrieval.
 
-### Backend & Software Development
+- Built modular pipelines for crawling, cleaning, normalizing, labeling, chunking, embedding, and knowledge-base ingestion
+- Designed taxonomy classification, slot extraction, clarification, answerability, retrieval, and answer-generation workflows
+- Implemented semantic retrieval with PostgreSQL and pgvector, plus an experimental weighted hybrid retrieval path
+- Added multi-turn session history, revenue and Vietnamese-number extraction, bearer-token authentication, and dependency-aware health checks
+- Developed evaluation suites for taxonomy classification and lexical/semantic retrieval quality
 
-- FastAPI
-- RESTful API Design
-- Modular Backend Architecture
-- Authentication & CRUD Operations
-- MySQL / SQLite
-- Git / GitHub
-- Docker
-- AWS Basic: EC2, IAM, CLI
+`Python` `FastAPI` `PostgreSQL` `pgvector` `RAG` `Docker` `LLM Evaluation`
 
-### Artificial Intelligence & Machine Learning
+### 🔎 Hybrid Retrieval RAG Chatbot
 
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Natural Language Processing
-- Transformer Architectures
-- Swin Transformer
-- Model Training & Evaluation
-- Dataset Preprocessing & Curation
+A modular chatbot that combines semantic search with keyword retrieval to improve document relevance.
 
-### Retrieval & Data Systems
+- Combined FAISS vector search and BM25 keyword matching
+- Separated preprocessing, chunking, embedding, retrieval, prompt construction, and generation concerns
+- Supported local and API-based inference with Ollama and Groq
 
-- Retrieval-Augmented Generation
-- FAISS
-- BM25
-- Hybrid Retrieval
-- Embedding-based Search
-- Document Chunking
-- Prompt Construction
-- Data Cleaning
-- Feature Engineering
-- Time-series Forecasting
+`Python` `FastAPI` `FAISS` `BM25` `Ollama` `Groq`
 
-### Tools & Environment
+### 🖼️ AI-Generated Image Detection
 
-- PyTorch
-- Scikit-learn
-- Pandas
-- Google Colab
-- Ollama
-- Groq API
-- Linux Development Environment
+A computer vision pipeline for classifying synthetic and real images using a fine-tuned Swin Transformer.
 
----
+- Built preprocessing, augmentation, training, and evaluation workflows for an imbalanced dataset
+- Explored frequency-domain features to capture synthetic-image artifacts
+- Reached **87% validation accuracy** at epoch 6
 
-## Featured Projects
+`Python` `PyTorch` `Swin Transformer` `Computer Vision`
 
-### RAG Chatbot Hybrid Retrieval System
+### 📈 E-commerce Analytics & Forecasting — VinUni Datathon 2026
 
-**Tech Stack:** Python, FastAPI, FAISS, BM25, Ollama, Groq
+An analytics and revenue-forecasting pipeline built over more than 15 related tables and approximately 10M records.
 
-Built a retrieval-based chatbot system using a hybrid search pipeline that combines semantic retrieval and keyword-based retrieval.
+- Performed data cleaning, exploratory analysis, feature engineering, and leakage-aware validation
+- Evaluated forecasts with MAE, RMSE, and R²
+- Investigated revenue, return-rate, inventory, customer, and marketing drivers
 
-Key highlights:
+`Python` `Pandas` `Scikit-learn` `Time-series Forecasting`
 
-- Implemented FAISS semantic search for vector-based document retrieval
-- Integrated BM25 keyword matching to improve chunk relevance
-- Designed a modular backend architecture with separated components:
-  - Document preprocessing
-  - Chunking
-  - Embedding generation
-  - Retrieval
-  - Prompt construction
-  - Response generation
-- Integrated both local and API-based LLM inference through Ollama and Groq
-- Focused on maintainability, experimentation, and lightweight deployment
+## Engineering interests
 
-This project helped me understand how AI systems are not only about models, but also about backend architecture, retrieval quality, and system-level design.
+```text
+AI systems          ████████████████████  RAG, agents, evaluation
+Backend engineering ███████████████████░  APIs, architecture, databases
+Data pipelines      ██████████████████░░  ingestion, cleaning, transformation
+Computer vision     ███████████████░░░░░  transformers, classification
+MLOps & cloud       ████████████░░░░░░░░  containers, deployment, observability
+```
 
----
-
-### Detect AI Image: Fake vs Real Classification
-
-**Tech Stack:** Python, PyTorch, Swin Transformer
-
-Developed a deep learning project for classifying AI-generated images and real images.
-
-Key highlights:
-
-- Fine-tuned a pretrained Swin Transformer model
-- Built an image classification pipeline with preprocessing, augmentation, training, and evaluation
-- Worked with a large-scale imbalanced dataset
-- Applied data balancing and preprocessing strategies for more stable training
-- Explored frequency-domain transformations to improve sensitivity to synthetic image artifacts
-- Achieved 87% validation accuracy at epoch 6
-
-This project strengthened my understanding of computer vision, transformer-based image models, dataset quality, and evaluation.
-
----
-
-### E-commerce Data Analysis & Forecasting  
-**VinUni Datathon 2026**
-
-**Tech Stack:** Python, Pandas, Scikit-learn
-
-Built a data analysis and forecasting pipeline for large-scale e-commerce data.
-
-Key highlights:
-
-- Analyzed more than 15 relational tables with approximately 10M+ records
-- Worked with customer, order, inventory, and web traffic data
-- Performed exploratory data analysis and business insight extraction
-- Built a time-series forecasting model for revenue prediction
-- Evaluated model performance using MAE, RMSE, and R²
-- Developed an end-to-end pipeline including:
-  - Data cleaning
-  - Feature engineering
-  - Validation
-  - Leakage prevention
-- Identified key drivers of revenue, return rates, and marketing performance
-
-This project improved my ability to work with real-world data, business logic, and machine learning pipelines.
-
----
-
-### Backend API Systems
-
-**Tech Stack:** FastAPI, MySQL, SQLite, Docker
-
-Built backend API systems focusing on practical software development fundamentals.
-
-Key highlights:
-
-- Designed RESTful APIs
-- Implemented CRUD operations
-- Integrated relational databases
-- Practiced authentication flow
-- Structured backend code for readability and maintainability
-- Learned deployment basics with Docker and cloud services
-
-This project direction reflects my ability to build software systems, not only AI experiments.
-
----
-
-### Smart Tracking Bus
-
-**Tech Stack:** Backend Design, Database Modeling, Real-time Tracking Concept
-
-Designed the system architecture for a smart bus tracking application.
-
-Key highlights:
-
-- Planned backend system structure
-- Designed database models
-- Worked on real-time tracking concepts
-- Focused on how software components communicate in a practical application
-
-This project helped me think more clearly about system design, data flow, and real-world application architecture.
-
----
-
-## GitHub Statistics
+## GitHub activity
 
 <div align="center">
 
-<img src="https://github-readme-stats-delta-henna-38.vercel.app/api?username=Ko4rut&show_icons=true&theme=dark&include_all_commits=true" height="170"/>
-<img src="https://github-readme-stats-delta-henna-38.vercel.app/api/top-langs/?username=Ko4rut&layout=compact&theme=dark" height="170"/>
+<img src="https://github-readme-stats-delta-henna-38.vercel.app/api?username=Ko4rut&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" height="165" alt="Ko4rut's GitHub statistics" />
+<img src="https://github-readme-stats-delta-henna-38.vercel.app/api/top-langs/?username=Ko4rut&layout=compact&theme=github_dark&hide_border=true" height="165" alt="Ko4rut's most used languages" />
 
 </div>
 
 ---
 
-## Current Focus
+<div align="center">
 
-I am currently focusing on improving my ability to build complete software and AI systems.
+**Building AI systems that are useful beyond the demo.**
 
-Main learning directions:
-
-- Backend development with clean architecture
-- FastAPI and production-oriented API design
-- Retrieval-Augmented Generation systems
-- Computer Vision model training and evaluation
-- Data preprocessing and machine learning pipelines
-- Docker and cloud deployment basics
-- System design fundamentals
-- Algorithmic thinking and data structures
-
----
-
-## What I Can Build
-
-I am capable of building software projects that combine backend engineering and AI components, such as:
-
-- RESTful backend APIs
-- CRUD-based management systems
-- Database-integrated applications
-- RAG chatbot systems
-- Computer vision classification systems
-- Data analysis and forecasting pipelines
-- AI model inference APIs
-- Prototype-to-demo AI applications
-
-My strength is not only training models, but also connecting models with software systems so they can become usable applications.
-
----
-
-## Career Direction
-
-I am developing myself toward the role of an **AI Engineer / Software Engineer with AI focus**.
-
-My target skill set includes:
-
-- Strong programming fundamentals
-- Backend engineering
-- Machine learning engineering
-- Retrieval systems
-- Computer vision
-- Cloud and deployment basics
-- Scalable AI application design
-
-I believe a good AI Engineer should understand both:
-
-1. How models work  
-2. How to build reliable software systems around those models  
-
-That is the direction I am currently pursuing.
-
----
-
-## Contact
-
-Email: NguyenToanThang15122005@gmail.com  
-GitHub: https://github.com/Ko4rut  
-LinkedIn: https://www.linkedin.com/in/nguyen-toan-thang-672972379/
-
----
-
-<p align="center">
-  <sub>Building intelligent systems with scalable software foundations.</sub>
-</p>
+</div>
