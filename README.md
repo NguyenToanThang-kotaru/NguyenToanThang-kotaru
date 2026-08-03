@@ -80,10 +80,10 @@ An analytics and revenue-forecasting pipeline built over more than 15 related ta
 ## Engineering interests
 
 ```text
-AI systems          ████████████████████  RAG, agents, evaluation
-Backend engineering ███████████████████░  APIs, architecture, databases
-Data pipelines      ██████████████████░░  ingestion, cleaning, transformation
-Computer vision     ███████████████░░░░░  transformers, classification
+Computer vision     ████████████████████  Bio Detect, Face Recognize
+AI systems          ███████████████████░  RAG, agents, evaluation
+Backend engineering ██████████████████░░  APIs, architecture, databases
+Data pipelines      ███████████████░░░░░  Ingestion, cleaning, transformation
 MLOps & cloud       ████████████░░░░░░░░  containers, deployment, observability
 ```
 
